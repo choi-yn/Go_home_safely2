@@ -1,0 +1,75 @@
+body {
+  background: #f9f6ff;
+  font-family: 'Jua', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.game-title {
+  font-size: 1.5em;
+  color: #ff7f50;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #fff0f0;
+}
+
+#gameCanvas {
+  background: #fffbe7;
+  border: 8px solid #ffb6b9;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto 12px auto;
+  box-shadow: 0 8px 24px #e0c3fc;
+}
+
+.game-desc {
+  font-size: 1em;
+  color: #888;
+  margin-bottom: 18px;
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+.restart-btn {
+  font-family: 'Jua', sans-serif;
+  font-size: 1.1em;
+  background: #ffb6b9;
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 32px;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px #e0c3fc;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.restart-btn:hover {
+  background: #ff7f50;
+}
+
+.start-overlay {
+  position: fixed;
+  left: 0; top: 0; width: 100vw; height: 100vh;
+  background: rgba(255,255,255,0.92);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start-btn {
+  font-family: 'Jua', sans-serif;
+  font-size: 2em;
+  background: #ffb6b9;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 18px 60px;
+  box-shadow: 0 4px 16px #e0c3fc;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.start-btn:hover {
+  background: #ff7f50;
+}
